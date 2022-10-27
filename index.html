@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Homework14</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="header__title">flexbox properties</h1>
+        </header>
+        <main class="content">
+            <div class="content__container">
+                <div class="content__block">
+                    <div class="content__text">
+                        <p>В цілому, щоб верстати сайти за допомогою flexbox, достатньо знати декілька його властивостей:</p>
+                        <p><span class="blue">display</span>:<span class="gold">flex</span> - задаємо батьківському контейнеру, якщо хочемо, щоб дочірні елементи розташувались в один ряд.</p>
+                        <p><span class="blue">flex-direction</span>:<span class="gold">row</span>|<span class="gold">row-reverse</span>|<span class="gold">column</span>|<span class="gold">column-reverse</span> - використовуємо, якщо хочемо змінити порядок дочірніх елементів у контейнері.</p>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">row</div>
+                        <div class="example1">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">row-reverse</div>
+                        <div class="example2">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">column</div>
+                        <div class="example3">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">column-reverse</div>
+                        <div class="example4">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                        </div>
+                    </div>
+                    <div class="content__text">
+                        <p><span class="blue">justify-content</span>:<span class="gold">flex-start</span>|<span class="gold">flex-end</span>|<span class="gold">center</span>|<span class="gold">space-between</span>|<span class="gold">space-around</span> - за допомогою цієї властивості ми можемо керувати розташуванням блоків по осі X.</p>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">flex-start</div>
+                        <div class="example5">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">flex-end</div>
+                        <div class="example6">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">center</div>
+                        <div class="example7">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">space-between</div>
+                        <div class="example8">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">space-around</div>
+                        <div class="example9">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                        </div>
+                    </div>
+                    <div class="content__text">
+                        <p><span class="blue">align-items</span>:<span class="gold">flex-start</span>|<span class="gold">flex-end</span>|<span class="gold">center</span>|<span class="gold">stretch</span>|<span class="gold">baseline</span> - розташовуємо блоки по осі Y.</p>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">flex-start</div>
+                        <div class="example10">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">flex-end</div>
+                        <div class="example11">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">center</div>
+                        <div class="example12">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">stretch</div>
+                        <div class="example13">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">baseline</div>
+                        <div class="example14">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                        </div>
+                    </div>
+                    <div class="content__text">
+                        <p><span class="blue">align-content</span>:<span class="gold">flex-start</span>|<span class="gold">flex-end</span>|<span class="gold">center</span>|<span class="gold">stretch</span>|<span class="gold">space-between</span>|<span class="gold">space-around</span> - вирівнюємо flex-контейнер. Чимось схоже на justify-content.</p>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">flex-start</div>
+                        <div class="example15">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                            <div class="example__item">5</div>
+                            <div class="example__item">6</div>
+                            <div class="example__item">7</div>
+                            <div class="example__item">8</div>
+                            <div class="example__item">9</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">flex-end</div>
+                        <div class="example16">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                            <div class="example__item">5</div>
+                            <div class="example__item">6</div>
+                            <div class="example__item">7</div>
+                            <div class="example__item">8</div>
+                            <div class="example__item">9</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">stretch</div>
+                        <div class="example17">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                            <div class="example__item">5</div>
+                            <div class="example__item">6</div>
+                            <div class="example__item">7</div>
+                            <div class="example__item">8</div>
+                            <div class="example__item">9</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">center</div>
+                        <div class="example18">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                            <div class="example__item">5</div>
+                            <div class="example__item">6</div>
+                            <div class="example__item">7</div>
+                            <div class="example__item">8</div>
+                            <div class="example__item">9</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">space-between</div>
+                        <div class="example19">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                            <div class="example__item">5</div>
+                            <div class="example__item">6</div>
+                            <div class="example__item">7</div>
+                            <div class="example__item">8</div>
+                            <div class="example__item">9</div>
+                        </div>
+                    </div>
+                    <div class="content__example">
+                        <div class="content__text">space-around</div>
+                        <div class="example20">
+                            <div class="example__item">1</div>
+                            <div class="example__item">2</div>
+                            <div class="example__item">3</div>
+                            <div class="example__item">4</div>
+                            <div class="example__item">5</div>
+                            <div class="example__item">6</div>
+                            <div class="example__item">7</div>
+                            <div class="example__item">8</div>
+                            <div class="example__item">9</div>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </main>
+        <footer class="footer"></footer>
+    </div>    
+</body>
+</html>
